@@ -2,16 +2,60 @@ body {
   margin: 0;
 }
 
+
+
+/********** HEADER STYLES **********/
+
+
+
 header {
-  height: 150px;
-  background-color: #2C6DB7;
+  height: 120px;
+  background-color: #2B3B44;
   color: white;
+  border-bottom: 3px solid rgb(20, 20, 23);
 }
 
-h1 {
+#headerName {
+  height: 120px;
+  width: 45%;
   margin: 0;
+  float: left;
+  text-align: center;
 }
 
-ul {
+header h1 {
   margin: 0;
+  padding-top: 50px;
+  padding-right: 50%;
+}
+
+#headerLogo {
+  background: url("../images/logo.png") no-repeat center center;
+  height: 80px;
+  width: 10%;
+  border-radius:;
+  float: left;
+}
+
+/*header img {
+  border-radius: 20%;
+  height: 70%;
+  width: 30%;
+}*/
+
+#headerTags {
+  height: 120px;
+  width: 45%;
+  margin: 0;
+  float: left;
+  text-align: center;
+}
+
+
+
+#headerTags ul {
+  margin: 0;
+  list-style: none;
+  padding-top: 50px;
+  padding-left: 50%;
 }
