@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-image: url(../images/sidebar.jpg);
 }
 
 
@@ -10,52 +11,109 @@ body {
 
 header {
   height: 120px;
-  background-color: #2B3B44;
+  background: linear-gradient(30deg, #2B3B44, #2B3B44 70%, #FFF);
   color: white;
-  border-bottom: 3px solid rgb(20, 20, 23);
 }
 
 #headerName {
   height: 120px;
-  width: 45%;
+  width: 20%;
   margin: 0;
   float: left;
-  text-align: center;
 }
 
 header h1 {
   margin: 0;
-  padding-top: 50px;
-  padding-right: 50%;
+  padding: 10% 0 0 15%;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-#headerLogo {
-  background: url("../images/logo.png") no-repeat center center;
-  height: 80px;
-  width: 10%;
-  border-radius:;
-  float: left;
-}
 
-/*header img {
-  border-radius: 20%;
-  height: 70%;
-  width: 30%;
-}*/
 
 #headerTags {
   height: 120px;
-  width: 45%;
+  width: 25%;
   margin: 0;
   float: left;
   text-align: center;
 }
 
-
-
 #headerTags ul {
   margin: 0;
+  padding: 5% 50% 0 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  padding-top: 50px;
-  padding-left: 50%;
+}
+
+header ul li {
+  padding: 0 0 5px 0;
+}
+
+#headerLogo {
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100% 100%;
+  height: 80px;
+  width: 10%;
+  margin-top: 20px;
+  border-radius: 10px;
+  float: left;
+}
+
+#headerSpacing {
+  height: 120px;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#navHome {
+  height: 120px;
+  width: 8.75%;
+  float: left;
+}
+
+#navSkills {
+  height: 120px;
+  width: 8.75%;
+  float: left;
+}
+
+#navProjects {
+  height: 120px;
+  width: 8.75%;
+  float: left;
+}
+
+#navContact {
+  height: 120px;
+  width: 8.75%;
+  float: left;
+}
+
+/********** BODY STYLES **********/
+
+.content {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.content p{
+  width: 80%;
+}
+
+
+
+/********** FOOTER STYLES **********/
+footer {
+  height: 60px;
+  background-color: green;
 }
