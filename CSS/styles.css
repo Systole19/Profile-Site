@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(../images/sidebar.jpg);
+  background-image: url(../images/background.jpg);
 }
 
 
@@ -13,6 +13,7 @@ header {
   height: 120px;
   background: linear-gradient(30deg, #2B3B44, #2B3B44 70%, #FFF);
   color: white;
+  border-bottom: 2px solid #FFF;
 }
 
 #headerName {
@@ -72,48 +73,85 @@ header ul li {
   float: left;
 }
 
-#navHome {
-  height: 120px;
-  width: 8.75%;
+#nav {
+  width: 35%;
   float: left;
 }
 
-#navSkills {
-  height: 120px;
-  width: 8.75%;
+#nav li {
+  height: 100%;
+  font-size: 24px;
+  border-left: 1px solid #FFF;
+  text-align: center;
+  padding: 46px 5.5%;
   float: left;
 }
 
-#navProjects {
-  height: 120px;
-  width: 8.75%;
-  float: left;
+
+
+#navBorderRight {
+  border-right: 1px solid #FFF;
 }
 
-#navContact {
-  height: 120px;
-  width: 8.75%;
-  float: left;
+a {
+  color: #FFF;
+  text-decoration: none;
 }
+
+#nav li:hover {
+    background-color: #FFF;
+    border: #000;
+}
+
+#nav li:hover > .button {
+    background-color: #FFF;
+    color: #000;
+}
+
+
 
 /********** BODY STYLES **********/
 
 .content {
   background-color: white;
-  width: 60%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 40px auto;
   border-radius: 20px;
   text-align: center;
 }
 
+.content h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .content p{
   width: 80%;
+  padding: 20px 0;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.filler {
+  height: 30px;
+}
+
+#aboutMe {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid grey;
+}
+
+#aboutPixel {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid grey;
 }
 
 
 
 /********** FOOTER STYLES **********/
 footer {
-  height: 60px;
-  background-color: green;
+  height: 40px;
+  background-color: #2B3B44;
+  border-top: 2px solid #FFF;
 }
